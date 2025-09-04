@@ -1,0 +1,20 @@
+.card {
+  width: 100%;
+  max-width: 600px; /* Limits card width on large screens */
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 48%; /* Two cards per row on tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 30%; /* Three cards per row on desktops */
+  }
+}
